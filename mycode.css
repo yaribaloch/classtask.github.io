@@ -1,0 +1,100 @@
+
+.container {
+	display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.container div:first-child img {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	width: 100px;
+	border-radius: 50px;
+}
+
+.myform {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: left;
+	background-color: #bd069e;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	padding-left: 10px;
+	width: 500px;
+	height: 1080px;
+
+
+}
+.myform form:first-child {
+	display: flex;
+	flex-direction: column;
+	align-content: left;
+	justify-content: left;
+}
+.myform form:first-child label{
+	margin-top: 15px;
+	margin-left: 15px;
+	color: #ffffff;
+	font-family: serif;
+	margin-bottom: -15px;
+	font-size:  18px;
+}
+
+.myform img {
+	margin-top: 30px;
+	width: 30%;
+	align-self: center;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #38042E;
+	
+}
+.paragraph {
+	margin-right: 10px;
+	color: #38042E;
+}
+
+.
+input[type=text], select, textarea {
+	width: 95%; /* Full width */
+	height: 40px;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #ff80ec;
+  border-color: gray;
+}
+input[type=text] label{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+input[type="checkbox"], label {
+    float: left;
+    line-height: 1.6em;
+    height: 1.6em;
+    margin: 0px 15px;
+    margin-left: 0px;
+    font-size: inherit;
+}
+textarea{
+	height: 100px;
+	resize: none;
+	background-color: #ff80ec;
+}
+input[type="Button"] {
+	width: 80px;
+	height: 30px;
+	align-self: left;
+	margin-left: 15px;
+	border-radius: 4px;
+	background-color: #ff80ec;
+	color: wheat;
+	font-size: 20px;
+	font-family: serif;
+	border-color: gray;
+}
